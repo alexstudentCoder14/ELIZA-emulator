@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT Project MAC: ELIZA Simulator (1966)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div id="terminal-container">
+  <div id="terminal">
+    <div id="output-feed">Welcome to
+             EEEEEE  LL      IIII  ZZZZZZ  AAAAA
+             EE      LL       II       ZZ AA   AA
+             EEEEE   LL       II     ZZZ  AAAAAAA
+             EE      LL       II    ZZ    AA   AA
+             EEEEEE  LLLLLL  IIII  ZZZZZZ AA   AA
+
+ELIZA:  HOW DO YOU DO.  PLEASE TELL ME YOUR PROBLEM.</div>
+    <div id="input-line">
+      <span id="prompt">YOU:  </span>
+      <input type="text" id="user-input" autocomplete="off" autofocus />
+    </div>
+  </div>
+
+  <div id="attribution-banner">
+    Eliza is a mock Rogerian psychotherapist. This original script was developed by Joseph Weizenbaum in 1966, and this emulator was developed by Alexandre Chassagne to simulate the 1966 ELIZA experience.
+  </div>
+
+  <div id="fact-panel">
+    <h2>HISTORICAL FACT PANEL: THE LEGACY OF ELIZA</h2>
+    <div class="fact-section">
+      <h3>What Was It Used For?</h3>
+      <p>ELIZA was originally created at the MIT Artificial Intelligence Laboratory as a study in natural language communication. The "DOCTOR" script simulated a Rogerian psychotherapist by using structural decomposition and keyword reflection. Despite Weizenbaum designing it purely as an experiment to show the superficiality of human-machine communication, users unexpectedly formed deep emotional connections with it, a phenomenon now known as the <strong>"ELIZA Effect."</strong></p>
+    </div>
+    <div class="fact-section">
+      <h3>Kickstarting Modern AI & Neural Processing</h3>
+      <p>While ELIZA used simple pattern matching rather than modern neural networks, its architecture paved the way for automated syntax tree parsing, conversational design, and the ultimate realization that machines could mimic human semantic structures. It proved that complex human dialogue could be broken down into systemic rules, directly inspiring the subsequent decades of computational linguistics, syntactic processing, and generative transformers that define today's artificial intelligence systems.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
